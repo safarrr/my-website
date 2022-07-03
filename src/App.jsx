@@ -59,16 +59,6 @@ function App() {
           <i className="bi bi-envelope-fill"></i>
         </a>
       </motion.div>
-      <motion.div
-        animate={{ x: 0 }}
-        initial={{ x: "-100vw" }}
-        transition={{ duration: 1.9 }}
-        whileDrag={{ scale: 2 }}
-        drag
-        dragSnapToOrigin="true"
-        dragConstraints={{ left: 0, right: 10 }}
-        className="drag"
-      ></motion.div>
     </>
   );
 }

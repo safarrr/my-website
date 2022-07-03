@@ -60,15 +60,3 @@
   color: white;
   font-size: 3rem;
 }
-.drag {
-  margin: 5vh 10%;
-  border-radius: 100%;
-  width: 5rem;
-  background: rgb(255, 255, 255);
-  background: radial-gradient(
-    circle,
-    rgba(255, 255, 255, 0.6937052408854167) 0%,
-    rgba(0, 0, 0, 0) 67%
-  );
-  height: 5rem;
-}
