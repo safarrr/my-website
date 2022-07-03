@@ -1,0 +1,74 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 10%;
+  margin-top: 10%;
+}
+.text-hallo {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.text-name {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.text-name span {
+  background: linear-gradient(180deg, #6a82ff 0%, #a4b7fc 112.93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about-text {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 800;
+  word-spacing: 5px;
+}
+.text-wd {
+  background: linear-gradient(150.36deg, #d68600 9.11%, #ffe600 28.87%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-js {
+  color: #ffe600;
+}
+.text-react {
+  color: #6a82ff;
+}
+.text-others {
+  background: linear-gradient(176.87deg, #ff0000 47.99%, #ffe600 72.52%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.text-link {
+  text-decoration: none;
+  color: white;
+  font-style: italic;
+  background: transparent;
+}
+.text-link:hover {
+  color: #6a82ff;
+}
+.card-link {
+  margin: 5vh 10%;
+}
+.card-link a {
+  margin: 5px;
+  text-decoration: none;
+  color: white;
+  font-size: 3rem;
+}
+.drag {
+  margin: 5vh 10%;
+  border-radius: 100%;
+  width: 5rem;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.6937052408854167) 0%,
+    rgba(0, 0, 0, 0) 67%
+  );
+  height: 5rem;
+}
