@@ -58,5 +58,8 @@
   margin: 5px;
   text-decoration: none;
   color: white;
-  font-size: 3rem;
+  width: 1rem;
+}
+.card-link a:hover{
+  color: #6a82ff;
 }
